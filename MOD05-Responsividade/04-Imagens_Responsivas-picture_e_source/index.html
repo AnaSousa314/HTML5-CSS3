@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Alterando a imagem de acordo com o seu tamanho. Isso é usado por exemplo com um banner de um site, tem tamanhos diferentes do banner para cada tamanho de tela. -->
+    <picture>
+      <!-- de 650px para cima -->
+      <source media="(min-width: 650px)" srcset="lobo2.jpg">
+
+      <!-- de 450px a 649px -->
+      <source media="(min-width: 450px)" srcset="lobo3.jpg">
+
+      <!-- abaixo de 450px -->
+      <img src="./lobo1.jpg" alt="">
+    </picture>
+</body>
+</html>
