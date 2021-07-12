@@ -1,0 +1,18 @@
+img{
+  width: 400px;
+  height: 400px;
+  object-fit: scale-down;
+}
+
+/* 
+tipos de object-fit:
+fill - é o padrão, ele distorce a imagem para caber no tamanho escolhido. Se não colocarmos object-fit, por padrão o HTML deixa como fill.
+
+contain - ele vai diminuir a imagem proporcionalmente sem distorção, de modo que a imagem caiba no espaço disponível. E o restante do espaço disponível fica em branco.
+
+cover - ele vai aumentar e cortar a imagem de forma que ela ocupe o espaço disponível, mas mantedo a proporção, não distorce a imagem. Ele sempre corta a partir do centro da imagem. O centro fica em destaque. Forma mais utilizada.
+
+none - diferente do cover, ele apenas corta a imagem a partir do centro, ele não remendiciona a imagem antes.
+
+scale-down - muito parecido com o container, a diferença é que ele vai diminuir proporcionalmente a qualidade da imagem, bem como o tamanho. Forma menos usada.
+*/
