@@ -1,0 +1,73 @@
+body{
+  background-color: #00ff00;
+}
+
+/* @media(min-width: 1000px){
+  body{
+    background-color: #0000ff;
+  }
+  h1{
+    font-size: 70px;
+  }
+}
+
+@media(min-width: 700px) and (max-width: 1000px){
+  body{
+    background-color:purple;
+  }
+  h1{
+    font-size: 50px;
+  }
+}
+@media(min-width: 300px) and (max-width: 700px){
+  body{
+    background-color: royalblue;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 300px){
+  h1{
+    font-size: 14px;
+  }
+} */
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+table,td{
+  border: 2px solid #000;
+}
+
+/* Quando for imprimir, essas propriedades serão aplicadas */
+@media only print{
+  h1{
+    font-size: 70px;
+    font-weight: normal;
+  }
+
+  table,td{
+    border: 0;
+  }
+}
+
+
+/* Na tela essas propriedades serão aplicadas */
+@media only screen{
+  h1{
+    display:none;
+  }
+}
+
+/* Essas propriedades serão aplicadas em todas as condições */
+@media all{
+  h2{
+    color: gray
+  }
+}
+
+/* Para o background-color aparecer na impressão, basta na caixa de impressão do Chrome (aquela que aparece com o Ctrl+P) clique em "Mais Definições" e então marque a opção "Imagens/Gráficos em segundo plano" */
