@@ -1,0 +1,29 @@
+body{
+  display: flex;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #000;
+}
+
+/* Quando na horizontal/paisagem */
+@media(orientation: landscape){
+  body{
+    flex-direction: row;
+  }
+}
+
+/* Quando na vertical/retrato */
+@media(orientation: portrait){
+  body{
+    flex-direction: column;
+  }
+}
+
+/* 
+O orientation não detecta a posição em que o celular está, ele trabalha com a proporção de tela. Ou seja se a altura estiver maior que a largura, ele aplica o orientation portrait; caso contrário será o orientation landscape. 
+
+O orientation é baseado no espaço disponível.
+*/
