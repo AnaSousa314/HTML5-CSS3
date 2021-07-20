@@ -1,0 +1,20 @@
+/* Ele só vai aplicar essa propriedade quando o body estiver na proporção 1/1, ou seja, quadrado perfeito. EX.: uma tela 500x500 */
+@media(aspect-ratio: 1/1){
+  body{
+    background-color: red;
+  }
+}
+
+/* Proporção de altura e largura. Abaixo a proporção é altura 2 e largura 1. Ex.: 600x300, a largura deve ser no minímo o dobro da altura */
+@media(min-aspect-ratio: 2/1){
+  body{
+    background-color: blue;
+  }
+}
+
+/* Aqui já é o contrário, a  altura é que deve ser no máximo o dobro da largura. */
+@media(max-aspect-ratio: 1/2){
+  body{
+    background-color: green;
+  }
+}
