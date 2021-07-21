@@ -1,0 +1,41 @@
+/*
+No @media, ao invés de alterarmos o valor em um elemento, como no exemplo abaixo, é melhor alterarmos no próprio :root.
+*/
+:root{
+  --bg-color: #fff;
+  --bg-second: #CCC;
+  /* --font-color: #f00; */
+  --font-size: 25px;
+  /* --font-size-big: 25px;
+  --font-size-small: 15px; */
+  
+}
+
+body{
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+}
+
+h1{
+  color: var(--font-color, #0000ff);
+}
+
+.container{
+  --verde: #00ff00;
+  background-color: var(--bg-second);
+  color: var(--font-color);
+}
+
+h2{
+  color: var(--pink,purple);
+}
+
+@media(max-width:450px){
+  /* body{
+    font-size: 14px;
+    font-size: var(--font-size-small);
+  } */
+  :root{
+    --font-size: 15px;
+  }
+}
