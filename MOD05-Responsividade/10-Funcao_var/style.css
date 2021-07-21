@@ -1,0 +1,28 @@
+/* Criamos variáveis de ambiente dentro do root(mais recomendado) ou dentro do elemento em que vamos aplicar a propriedade. Ex.: no body, header, h1, classe, etc.... É mais recomendado que a variavel seja colocada no root pq dessa maneira ela se torna global, ou seja, todos os elementos podem acessá-la. Caso ela seja colocada dentro de um elemento específico, apenas esse elemento e seus filhos terão acesso a essa variavel.
+Essas variaveis devem começar com -- e não devem conter caracteres especiais.
+Podemos setar dentro do var() um valor default para o caso da variavel deixar de existir, como uma segunda opção caso isso ocorra.
+*/
+:root{
+  --bg-color: #fff;
+  --bg-second: #000;
+  /* --font-color: #f00; */
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
+h1{
+  color: var(--font-color, #0000ff);
+}
+
+.container{
+  --verde: #00ff00;
+  --pink: pink;
+  background-color: var(--bg-second);
+  color: var(--font-color);
+}
+
+h2{
+  color: var(--pink);
+}
