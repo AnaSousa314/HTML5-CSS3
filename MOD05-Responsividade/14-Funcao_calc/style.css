@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: calc(100% - 20px);
+  height: 200px;
+  background-color: #ccc;
+}
+
+/* 
+width: calc(100% - 20px); ele pegará 100% de largura da tela, e tirará 20px dela. Ou seja, se a tela tem 1000px, ficará 980px, e assim por diante. Isso ajuda muito na responsidvidade, pois não importa quanto é o tamanho da tela, ele sempre diminuirá 20px dela neste exemplo.
+*/
