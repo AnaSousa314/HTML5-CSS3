@@ -1,0 +1,9 @@
+img{
+  width: min(50%, 300px);
+}
+
+/* 
+width: max(50%, 300px); se a tela for de 1000px de largura, 50% disso é 500px, que é maior que 300px. Mas se a tela tiver largura igual a 400px, 50% disso é 200px, então o valor que será maior no max será 300px.
+
+width: min(50%, 300px); é a mesma coisa do max, só que neste caso ele pega o menor valor.
+*/
