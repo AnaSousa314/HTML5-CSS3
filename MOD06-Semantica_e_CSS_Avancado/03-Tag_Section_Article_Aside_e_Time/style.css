@@ -1,0 +1,7 @@
+body{
+  margin: 0;
+}
+
+section,article,aside,time{
+  border: 3px solid black;
+}
