@@ -1,0 +1,25 @@
+@keyframes teste {
+  /* As porcentagens representam a duração,proporção do código */
+  0%{background-color: red;top:0;left:0;}
+  25%{background-color: yellow;top:0;left:200px;}
+  50%{background-color: blue;top:200px;left:200px;}
+  75%{background-color: green;top:200px;left:0;}
+  100%{background-color: red;top:0;left:0;}  
+}
+
+body{
+  margin: 0;
+}
+
+.exemplo{
+  width: 150px;
+  height: 150px;
+  /* margin: 30px; */
+  background-color: green;
+  position: absolute;
+  animation-name: teste;
+  animation-duration: 4s;
+  animation-delay: 2s;/* vai esperar 2s para iniciar */
+  animation-iteration-count: infinite; /* quantas vezes vai se repetir, pode ser números também, 3 por exemplo */
+  
+}
