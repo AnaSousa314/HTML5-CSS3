@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+
+.exemplo{
+  width: 500px;
+  height: 200px;
+  background: blue;
+  /* background: linear-gradient(white,blue,red); */
+
+  /* 1 - direção: se negativo vem da esquerda p direita, se positivo vem da direita para a esquerda
+     2 - cores
+  */
+
+  /* em graus */
+  background: linear-gradient(-45deg,white,blue);
+
+  /* por direção */
+  background: linear-gradient(to right,white,blue);
+
+
+  /* Proteções para garantir que funcione em todos os navegadores */
+  /* background: -moz-linear-gradient(white,blue);
+  background: -o-linear-gradient(white,blue);
+  background: -webkit-linear-gradient(white,blue); */
+}
