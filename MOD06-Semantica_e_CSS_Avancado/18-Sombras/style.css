@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+}
+
+/* Para elementos, objetos */
+.exemplo{
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 30px #888;
+  border-radius: 50%;
+}
+
+/* Para Texto */
+/* .exemplo{
+  height: 150px;
+  width: 150px;
+  color: green;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 150px;
+  text-shadow: 5px 5px 5px #888;
+} */
+
+/* O primeiro valor do box-shadow é o horizontal, segundo vertical, terceiro de blur que é o grau de esfumaçamento e o quarto é a cor da sombra.
+Note que se o valor hrizontal for negativo a sombra irá para a esquerda, e se o valor vertical for negativo a sombra irá para cima. 
+Se quisermos que haja sombra em todos os lados do elemento basta deixar o valor horizontal e vertical igual a zero 0.
+*/
