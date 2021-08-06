@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+
+.exemplo{
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  margin: auto;
+  margin-top: 100px;
+  transition: all 2s linear;
+
+}
+
+.exemplo:hover{
+  width: 300px;
+  background-color: blue;
+}
+
+
+a{
+  color: black;
+  transition: all 1s linear;
+}
+
+a:hover{
+  color: red;
+
+}
+
+/* 
+Primeira - all se aplica a qualquer coisa que for modificada 
+Segunda - tempo
+Terceira - linear significa que vai iniciar e acabar em uma mesma velocidade
+*/
