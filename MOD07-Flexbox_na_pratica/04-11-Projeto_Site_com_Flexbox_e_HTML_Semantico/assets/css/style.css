@@ -186,6 +186,33 @@ nav a:hover{
   margin-top: 10px;
 }
 
+.widget_dep{
+  width: 145px;
+  height: 145px;
+  background-color: #0079c7;
+  margin: 10px 10px;
+}
+
+.make_appointment{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #727272;
+  color: #5c5c5c;
+}
+
+.make_appointment .fa-phone-square,
+.make_appointment .fa-envelope-square
+{
+  margin-right: 10px;
+  color: #5c5c5c;
+  font-size: 21px;
+}
+
+.make_appointment strong{
+  color: #000;
+}
+
 .flex{
   display: flex;
   flex-wrap: wrap;
@@ -241,4 +268,118 @@ article .news_resume{
   color: #5c5c5c;
   line-height: 20px;
   margin-bottom: 30px;
+}
+
+footer{
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_menu{
+  display: flex;
+}
+
+.fm_1, .fm_2, .fm_3{
+  flex: 1;
+  color: #fff;
+}
+
+.fm_1{
+  background-color: #39aae1;
+}
+
+.fm_2{
+  background-color: #0079c7;
+}
+
+.fm_3{
+  background-color: #2b4c99;
+}
+
+.fm_title{
+  font-size: 21px;
+}
+
+.fm_desc{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+address{
+  font-style: normal;
+  color: #5c5c5c;
+}
+
+.widget_address{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social{
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.social a{
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+.posts,.posts_tweets{
+  line-height: 20px;
+}
+
+.posts p,.posts_tweets p{
+  margin-bottom: 0;
+}
+
+.posts span,.posts_tweets span{
+  color: #3861c2;
+}
+
+.posts_tweets{
+  color: #5c5c5c;
+}
+
+.widget_address a{
+  text-decoration: none;
+  color: #fff
+}
+
+.footer_menu a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer_area{
+  display: flex;
+  /* background-color: #f00; */
+}
+
+.footer_area_item{
+  flex: 1;
+  color: #fff;
+  padding-right: 20px;
+}
+
+.flex_column{
+  flex-direction: column;
+}
+
+footer .widget_title_text{
+  color: #fff;
+}
+
+.footer_copy{
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 30px;
 }
