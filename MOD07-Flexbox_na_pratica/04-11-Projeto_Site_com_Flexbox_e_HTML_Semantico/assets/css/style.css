@@ -413,9 +413,10 @@ footer .widget_title_text{
     height: auto;
     flex-direction: column;
   }
-  /* .banner .container{
+
+  .container{
     flex-direction: column;
-  } */
+  }
   #geral{
     margin-top: 45px;/*  */
   }
@@ -423,6 +424,9 @@ footer .widget_title_text{
   #geral aside
   {
     padding: 20px;
+  }
+  #geral aside:nth-child(2){
+    margin-bottom: 50px;
   }
   .footer_menu{
     flex-direction: column;
@@ -440,6 +444,10 @@ footer .widget_title_text{
   nav ul{
     flex-direction: column;
     display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
   }
   header{
     height: auto;

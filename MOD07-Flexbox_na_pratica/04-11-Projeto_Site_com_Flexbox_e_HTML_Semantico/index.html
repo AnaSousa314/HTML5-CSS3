@@ -9,6 +9,21 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      window.onload = function(){
+        document.querySelector(".menu_mobile").addEventListener("click",function(){
+          if (document.querySelector(".menu nav ul").style.display == 'flex') {
+            document.querySelector(".menu nav ul").style.display = 'none'
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+            console.log('clicou else');
+            
+          }
+        })
+      }
+    </script>
+
     <title>MediCenter</title>
   </head>
   <body>
